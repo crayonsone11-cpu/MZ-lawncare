@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawn Care Services Toronto & GTA | Mz's Lawn Care</title>
+  <meta name="description" content="Premier lawn care in Toronto & GTA. Lawn mowing, edging, hedge trimming, garden maintenance, and spring & fall seasonal cleanups.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="subpage-body">
+
+  <!-- STICKY TOPBAR -->
+  <header class="subpage-header" id="mainHeader">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <span class="logo-leaf">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+        </span>
+        <span class="logo-text">MZ’S LAWN CARE</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-item-dropdown">
+          <a href="lawncare.html" class="nav-link active dropdown-toggle">
+            Services
+            <svg class="dropdown-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="lawncare.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🌱</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Lawn Care</span>
+                <span class="dropdown-item-desc">Mowing, trimming & garden care</span>
+              </div>
+            </a>
+            <a href="landscaping.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🧱</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Landscaping</span>
+                <span class="dropdown-item-desc">Interlock, paving, sod & retaining walls</span>
+              </div>
+            </a>
+            <a href="snow-removal.html" class="dropdown-item">
+              <span class="dropdown-item-icon">❄️</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Snow Removal</span>
+                <span class="dropdown-item-desc">24/7 commercial & residential clearing</span>
+              </div>
+            </a>
+            <a href="tree-pruning.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🌿</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Tree Pruning</span>
+                <span class="dropdown-item-desc">Canopy thinning & shaping</span>
+              </div>
+            </a>
+            <a href="asphalt-repair.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🛣️</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Asphalt Repair</span>
+                <span class="dropdown-item-desc">Crack sealing & pothole patching</span>
+              </div>
+            </a>
+            <a href="tree-removal.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🪓</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Tree Removal</span>
+                <span class="dropdown-item-desc">Safe extraction & stump grinding</span>
+              </div>
+            </a>
+            <a href="gutter-cleaning.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🏠</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Gutter Cleaning</span>
+                <span class="dropdown-item-desc">Downspout flushing & debris removal</span>
+              </div>
+            </a>
+            <a href="window-cleaning.html" class="dropdown-item">
+              <span class="dropdown-item-icon">✨</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Window Cleaning</span>
+                <span class="dropdown-item-desc">Streak-free glass washing</span>
+              </div>
+            </a>
+            <a href="parking-lot-line-painting.html" class="dropdown-item">
+              <span class="dropdown-item-icon">🅿️</span>
+              <div class="dropdown-item-text">
+                <span class="dropdown-item-title">Line Painting</span>
+                <span class="dropdown-item-desc">Commercial parking lot striping</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href="index.html#projects" class="nav-link">Projects</a>
+        <a href="index.html#pricing" class="nav-link">Pricing</a>
+        <a href="index.html#story" class="nav-link">About Us</a>
+        <a href="index.html#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="tel:4372232889" class="phone-cta-btn" id="navPhoneBtn">
+          <span class="phone-icon-circle">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </span>
+          <span class="phone-number">(437) 223-2889</span>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="subpage-hero">
+      <div class="content-container">
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-separator">/</span>
+          <a href="index.html#services">Services</a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-current">Lawn Care</span>
+        </div>
+
+        <div class="subpage-hero-grid">
+          <div class="subpage-hero-content">
+            <div class="section-tag"><span class="tag-dot"></span> COMPREHENSIVE LAWN CARE</div>
+            <h1 class="subpage-hero-title">
+              Craft Natural Beauty With <span class="serif-italic">Precision</span>
+            </h1>
+            <p class="subpage-hero-subtitle">
+              Where your commercial or residential lawn gets the royal treatment. From weekly precision mowing and crisp perimeter edging to spring revitalization and full garden upkeep, Mz’s Lawn Care keeps your property looking its absolute best throughout Southern Ontario's growing season.
+            </p>
+            <div class="subpage-hero-actions">
+              <a href="#quote" class="btn-primary-lightgreen">
+                <span>Get A Free Quote</span>
+                <span class="arrow-badge">↗</span>
+              </a>
+              <a href="#subservices" class="btn-secondary-white">
+                <span>Explore All 6 Services</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="subpage-hero-media">
+            <img src="https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/62c5dad2-05d6-420f-a245-c0d7231882ff/IMG_8262.JPG" alt="Lawn Care in Toronto" class="subpage-hero-img">
+            <div class="subpage-hero-badge">
+              <span>🌱</span>
+              <span>Serving Toronto, North York & GTA!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 SERVICES SECTION -->
+    <section class="subservices-section" id="subservices">
+      <div class="content-container">
+        <div class="subservices-header">
+          <div class="section-tag"><span class="tag-dot"></span> 6 SIGNATURE SERVICES</div>
+          <h2 class="section-title">
+            All 6 Lawn Care<br><span class="serif-italic">programs & services</span>
+          </h2>
+        </div>
+
+        <div class="subservices-grid">
+          <!-- 1. Lawn Mowing -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/62c5dad2-05d6-420f-a245-c0d7231882ff/IMG_8262.JPG');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Routine Care</span>
+              <span class="service-icon-circle">🌱</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Lawn Mowing</h3>
+              <p class="service-desc">Precise and reliable mowing to keep your grass healthy, neat, and beautifully maintained.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+
+          <!-- 2. Lawn Trimming -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/4ffb4c82-2743-426a-8e57-a26cb5f158fc/IMG_6230.jpg');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Edging & Detailing</span>
+              <span class="service-icon-circle">✂️</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Lawn Trimming & Edging</h3>
+              <p class="service-desc">Expert lawn trimming and edging to give your yard a clean, crisp, and well-defined appearance around every edge.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+
+          <!-- 3. Hedge Trimming -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/805b0a1c-f6b2-4378-af2d-65f5ba42db52/IMG_2841.png');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Shaping & Pruning</span>
+              <span class="service-icon-circle">🌿</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Hedge & Bush Trimming</h3>
+              <p class="service-desc">Professional hedge, shrub, and bush trimming to keep your landscape neat, healthy, and well-shaped.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+
+          <!-- 4. Garden Maintenance -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/1737401091384-O7W937OBEGIYJGI90H81/Copy+of+D095C711-3EFA-45CA-9388-AC11B1996D2D.jpg');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Garden Care</span>
+              <span class="service-icon-circle">🌺</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Full Garden Maintenance</h3>
+              <p class="service-desc">Complete garden care including weeding, mulching, and plant care to keep beds vibrant and thriving.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+
+          <!-- 5. Fall Cleanup -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/2dfae439-523f-492c-a7be-25817adf6322/IMG_8259.JPG');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Fall Prep</span>
+              <span class="service-icon-circle">🍂</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Fall Cleanup</h3>
+              <p class="service-desc">Clean and precise seasonal cleanup to create a sharp, debris-free yard and protect turf for winter.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+
+          <!-- 6. Spring Cleanup -->
+          <div class="subservice-card">
+            <div class="subservice-card-bg" style="background-image: url('https://images.squarespace-cdn.com/content/v1/636af882480fe96683fb13a0/00c7e407-41b5-4d66-ad18-ffa6b65667a2/IMG_3042+%283%29.png');"></div>
+            <div class="subservice-card-overlay"></div>
+            <div class="service-top-badges">
+              <span class="service-pill-tag">Spring Revival</span>
+              <span class="service-icon-circle">☀️</span>
+            </div>
+            <div class="service-bottom-content">
+              <h3 class="service-title">Spring Cleanup</h3>
+              <p class="service-desc">Spotless property rejuvenation with debris clearing, power raking, and prepping your property to shine.</p>
+              <a href="#quote" class="btn-learn-more">Get a Quote <span class="arrow-badge-sm">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET A QUOTE -->
+    <section class="quote-section" id="quote">
+      <div class="content-container">
+        <div class="quote-split-grid">
+          <div class="quote-left-col">
+            <div class="section-tag"><span class="tag-dot"></span> FREE QUOTE</div>
+            <h2 class="quote-headline">
+              Book your<br>lawn care <span class="serif-italic">program</span><br><span class="serif-italic">today</span>
+            </h2>
+            <p class="quote-description">
+              Enjoy lush, worry-free green grass with zero long-term lock-in contracts.
+            </p>
+            <div class="quote-trust-pills-row">
+              <span class="trust-pill">Same Crew Every Visit</span>
+              <span class="trust-pill">100% Satisfaction Guarantee</span>
+              <span class="trust-pill">Zero Contracts</span>
+            </div>
+          </div>
+
+          <div class="quote-right-col">
+            <form class="minimal-underline-form" id="quoteForm">
+              <div class="form-row-2col">
+                <div class="form-field">
+                  <label for="userName">Your Name</label>
+                  <input type="text" id="userName" name="userName" required autocomplete="name" placeholder=" ">
+                </div>
+                <div class="form-field">
+                  <label for="userEmail">Email Address</label>
+                  <input type="email" id="userEmail" name="userEmail" required autocomplete="email" placeholder=" ">
+                </div>
+              </div>
+
+              <div class="form-row-2col">
+                <div class="form-field">
+                  <label for="userTown">Town / Area in GTA</label>
+                  <div class="select-wrapper">
+                    <select id="userTown" name="userTown" required>
+                      <option value="Toronto">Toronto</option>
+                      <option value="North York">North York</option>
+                      <option value="Etobicoke">Etobicoke</option>
+                      <option value="Scarborough">Scarborough</option>
+                      <option value="Mississauga">Mississauga</option>
+                      <option value="Brampton">Brampton</option>
+                    </select>
+                    <span class="select-chevron">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="userService">Service needed</label>
+                  <div class="select-wrapper">
+                    <select id="userService" name="userService" required>
+                      <option value="Lawn Mowing" selected>Lawn Mowing</option>
+                      <option value="Lawn Trimming & Edging">Lawn Trimming & Edging</option>
+                      <option value="Hedge / Shrub / Bush Trimming">Hedge / Shrub / Bush Trimming</option>
+                      <option value="Full Garden Maintenance">Full Garden Maintenance</option>
+                      <option value="Fall Cleanup">Fall Cleanup</option>
+                      <option value="Spring Cleanup">Spring Cleanup</option>
+                    </select>
+                    <span class="select-chevron">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-field full-width">
+                <label for="userPropertyNotes">Tell me about your property</label>
+                <div class="textarea-wrapper">
+                  <textarea id="userPropertyNotes" name="userPropertyNotes" rows="2" placeholder=" "></textarea>
+                </div>
+              </div>
+
+              <div class="form-privacy-check">
+                <input type="checkbox" id="privacyConsent" name="privacyConsent" required checked>
+                <label for="privacyConsent">By submitting this form I accept the Privacy Policy of this site.</label>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn-primary-lightgreen" id="submitQuoteBtn">
+                  <span>Get A Free Quote</span>
+                  <span class="arrow-badge">↗</span>
+                </button>
+              </div>
+
+              <div id="formStatusMsg" class="form-status-msg" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="content-container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <span class="brand-badge-icon">🌿</span>
+            <span class="brand-title">MZ'S LAWN CARE</span>
+          </div>
+          <p class="footer-bio">
+            Reliable lawn care, landscaping, and 24/7 winter snow removal for homes and businesses across Toronto & the GTA — residential and commercial, every season.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="lawncare.html">Lawn Care</a></li>
+            <li><a href="landscaping.html">Landscaping</a></li>
+            <li><a href="snow-removal.html">Snow Removal</a></li>
+            <li><a href="tree-pruning.html">Tree Pruning</a></li>
+            <li><a href="asphalt-repair.html">Asphalt Repair</a></li>
+            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="gutter-cleaning.html">Gutter Cleaning</a></li>
+            <li><a href="window-cleaning.html">Window Cleaning</a></li>
+            <li><a href="parking-lot-line-painting.html">Line Painting</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact / NAP</h4>
+          <ul class="footer-contact-list">
+            <li><a href="mailto:mert@mzslawncare.ca">✉️ mert@mzslawncare.ca</a></li>
+            <li><a href="tel:4372232889">📞 +1 (437) 223-2889</a></li>
+            <li><span>📍 Toronto, Ontario, Canada</span></li>
+            <li><span>🕒 Mon–Fri: 7:30am–6pm | Sat–Sun: 7:30am–4pm</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Service Areas</h4>
+          <div class="service-areas-pills">
+            <span class="area-pill">Toronto</span>
+            <span class="area-pill">North York</span>
+            <span class="area-pill">Etobicoke</span>
+            <span class="area-pill">Scarborough</span>
+            <span class="area-pill">Mississauga</span>
+            <span class="area-pill">Brampton</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">© 2026 Mz's Lawn Care. All Rights Reserved.</p>
+        <p class="designer-text">Serving Greater Toronto Area with Pride</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
+
